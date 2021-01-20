@@ -8,6 +8,8 @@ server:
   
 # Configuraciones de servidor Eureka
 eureka:
+  instance: 
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
